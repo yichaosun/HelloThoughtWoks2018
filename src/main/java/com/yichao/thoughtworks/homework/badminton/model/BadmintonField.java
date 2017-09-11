@@ -23,20 +23,6 @@ public class BadmintonField {
     private double[][] dayUnitCostMatrix;
     private double[] dayCancelCostMatrix;
 
-
-    //    // TODO: 2017/9/11 delete
-//    public BadmintonField(String name) {
-//        this.name = name;
-//        initConfig();
-//        initMemory();
-//    }
-//
-//    private void initConfig() {
-//        dayMatrix = new int[]{1, 6};
-//        dayTimeMatrix = new int[][]{{9, 12, 18, 20, 22}, {9, 12, 18, 22}};
-//        dayUnitCostMatrix = new double[][]{{30, 50, 80, 60}, {40, 50, 60}};
-//        dayCancelCostMatrix = new double[]{0.5, 0.25};
-//    }
     public BadmintonField() {
         initMemory();
     }
@@ -228,7 +214,6 @@ public class BadmintonField {
      * @return
      */
     private double itemsCost(int[] time, double[] cost, int beginTime, int endTime) {
-        // TODO: 2017/9/10 时间段合法性
         double sum = 0;
         do {
             sum += singleItemCost(time, cost, beginTime);
@@ -251,8 +236,6 @@ public class BadmintonField {
     }
 
     /**
-     * TODO 工具类
-     *
      * @param array
      * @param value
      * @return
