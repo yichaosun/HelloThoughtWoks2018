@@ -8,7 +8,7 @@ created by 孙益超
 
 ## 作业说明
 
-本程序采用Java实现，`maven`构建：
+本程序采用Java实现，`maven`构建，经验证`IDEA`导入项目正常：
 
 * `maven`导入即可自动构建
 * `test/java/com/yichao/thoughtworks/homework/badminton/TestCase1.java`为题设测试用例，Maven导入可直接运行测试
