@@ -4,16 +4,16 @@
 
 created by 孙益超
 
-
+**Email：**     [sunyichao_believe@yahoo.com](mailto:sunyichao_believe@yahoo.com)
 
 ## 作业说明
 
 本程序采用Java实现，`maven`构建：
 
 * `maven`导入即可自动构建
+* `test/java/com/yichao/thoughtworks/homework/badminton/TestCase1.java`为题设测试用例，Maven导入可直接运行测试
+* `src/main/java/com/yichao/thoughtworks/homework/badminton/Main.java `入口函数，Maven导入后可直接进入运行程序
 * `git log`可见程序实现思路
-* `src/main/java/com/yichao/thoughtworks/homework/badminton/Main.java `入口函数
-* `test/java/com/yichao/thoughtworks/homework/badminton/TestCase1.java`为题设测试用例
 
 测试用例全部通过
 
